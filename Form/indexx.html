@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1> survey form by whizprogrammer </h1>
+    <form id="form">
+        <div class="main">
+            <div class="form-control">
+                <label for="name" id="label-name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-control">
+                <label for="email" id="label-email" requires>Gmail</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-control">
+                <label for="age" id="label-age">Age</label>
+                <input id="age" placeholder="Enter your age" type="text">
+            </div>
+            
+                <label for="role" id="label-role">
+                    which option is best describes you ?
+                </label>
+            
+            <div class="form-control">
+                <select>
+                    <option value="student"> Student</option>
+                    <option value="employee">Employee</option>
+                    <option value="intern">Intern</option>
+                    <option value="trainee">Trainee</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <label> Would you recommend whizprogrammer to a friend ?</label>
+            <div class="form-control">
+               
+
+                <input type="radio" id="recommend1" name="recommend">Yes</input>
+                <input type="radio" id="recommend2" name="recommend">NO</input>
+                <input type="radio" id="recommenf3" name="recommend">May be</input>
+            </div>
+
+                <label>Languages and frame work know ?
+                    <small>(check all that apply)</small>
+                </label>
+            
+            <div class="form-control">
+                <label for="inp-1">
+                    <input type="checkbox" name="inp"> C programming </input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="inp-2">
+                    <input type="checkbox" name="inp"> cpp </input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="inp-3">
+                    <input type="checkbox" name="inp"> C# programming</input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="inp-4">
+                    <input type="checkbox" name="inp"> HTML </input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="inp-5">
+                    <input type="checkbox" name="inp"> CSS</input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="inp6">
+                    <input type="checkbox" name="inp">java script </input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">React<br></input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">Django</input></label><br>
+                <label for="inp-7">
+                </div>
+                   <div class="form-control"> <input type="checkbox" name="inp">Spring</input></label><br>
+                
+            </div>
+            <label> Any comment or suggestion ?</label>
+            <div class="form-control">
+                <textarea id="comments" name="comment" placeholder="Enter your valueable comment."></textarea>
+                </div>
+                
+                <button type="submit" value="submit">Submit</button>
+            
+    </form>
+</body>
+
+</html>
